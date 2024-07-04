@@ -11,6 +11,7 @@ public class Main {
         frame.setContentPane(new form1() .panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
+        frame.setSize(800,600);
         frame.setVisible(true);
 
 
